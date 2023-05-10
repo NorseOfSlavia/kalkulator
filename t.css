@@ -1,0 +1,61 @@
+body {
+	background: url(ttt.gif);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100vh;
+    background: red;
+   animation-name: moja_animacja;
+   animation-duration: 30s;
+   animation-iteration-count: infinite;
+  overflow-x: 0;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kalkulator {
+	width: 25%;
+	height: 60vh;
+	background-color: #DCAE58;
+	border-radius: 20px;
+	border: solid 6px gray;
+	text-align: center;
+		color: white;
+	font-family: i;
+
+}
+
+input[type="text"] {
+	height: 25vh;
+	margin-top: 11%;
+	width: 70%;
+	border: ;
+	border-radius: 15px;
+	font-size: 30px;
+	text-align: center;
+	background-color: #413E30;
+		color: white;
+	font-family: italic;
+
+}
+
+.przyciski button {
+	width: 25%;
+	height:35px;
+	font-size: 10px;
+	margin-top: 2%;
+	font-size: 15px;
+	background-color: #D6C569;
+	border: solid 3px gray;
+	border-radius: 2px;
+	color: white;
+	font-family: italic;
+
+
+
+
+}
+@keyframes moja_animacja {
+   0% {background: red;}
+   50% {background: blue;}    
+}
